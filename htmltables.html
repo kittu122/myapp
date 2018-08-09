@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html table</title>
+    <style type="text/css">
+        table,th,td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+         #custom-table thead{
+            background-color: red;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+
+
+    <!-- Simple Table Example -->
+    <h2>simple table</h2>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>sno</th>
+                <th>sname</th>
+                <th>address</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>kittu</td>
+                <td>vishakapatanam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>veni</td>
+                <td>guntur</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>krishna</td>
+                <td>guntur</td>
+
+            </tr>
+        </thead>
+    </table>
+    <h2>Table with col span</h2>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th colspan="2">NAME & ADDRESS</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>jone</td>
+                <td>us</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>yong</td>
+                <td>japan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>naveen</td>
+                <td>india
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Table With Row Span -->
+    <h2>Table with row span</h2>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th>ADRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>jone</td>
+                <td>us</td>
+            </tr>
+            <tr>
+                
+                <td>yong</td>
+                <td>japan</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>naveen</td>
+                <td>india
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Custom Table with CSS -->
+    <h2>Costom Table</h2>
+
+<table width="100%" id="Custom-table">
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>NAME</th>
+                <th>ADRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>jone</td>
+                <td>us</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>yong</td>
+                <td>japan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>naveen</td>
+                <td>india
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+</body>
+</html>

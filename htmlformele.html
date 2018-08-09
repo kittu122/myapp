@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Form Element</title>
+    <style >
+    	div{
+    		background-color: seagreen;
+    		padding: 10px;
+    		margin: 5px;
+    		width: 400px;
+    		color: white;
+
+    	}
+    </style>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <div>
+        <form>
+    	<label for="username">User Name</label>
+    	<input type="text" id="username">
+    	<br>
+    	<label for="password">Password</label>
+    	<input type="password" id="password">
+    	<br>
+    	<input type="submit" value="Login">
+    	
+    </form>
+</div>
+
+<!--form with table data-->
+<div>
+	<form>
+		<table>
+			<tr>
+				<td>
+					<label>User Name</label>
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td><label>password</label>
+				</td>
+				<td>
+					<input type="password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Login">
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+    <!-- Select and Option -->
+<div>
+	<select>
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JAVASCRIPT</option>
+		<option>JQUERY</option>
+		<option>BOOTSTRAP</option>
+		<option>ANGULAR JS</option>
+	</select>
+</div>
+    <!-- Textarea -->
+    <div>
+    	<label>Add Your Comment</label>
+    	<textarea rows="5" cols="20"></textarea>
+    </div>
+    <!--data list-->
+    <div>
+    	<label>Select a Technology</label>
+    	<input list="tecnologies" name="tech">
+    	<datalist id="tecnologies">
+    	<option>HTML</option>
+		<option>CSS</option>
+		<option>JAVASCRIPT</option>
+		<option>JQUERY</option>
+		<option>BOOTSTRAP</option>
+		<option>ANGULAR JS</option>
+	</datalist>
+    </div>
+
+    <!-- button -->
+
+    <!-- datalist -->
+
+
+</body>
+</html>
